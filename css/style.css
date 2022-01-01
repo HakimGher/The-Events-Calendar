@@ -1,0 +1,154 @@
+
+h1 {
+  text-transform: capitalize;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul {
+  /* padding: 20px 200px; */
+}
+
+
+
+.written {
+  flex-grow: 1;
+}
+
+button {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #eee;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #eee;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 36px;
+  justify-content: center;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.01s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  text-transform: uppercase;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button.mod {
+  background-color: #5250da;
+}
+
+button.del {
+  background-color: #a22a2a;
+}
+
+button:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+  border-radius: 3px;
+}
+
+button:active {
+}
+
+button:visited {
+}
+
+button.mod:hover {
+  border-color: #5250da;
+  color: #5250da;
+  fill: #5250da;
+  background-color: #eee;
+}
+
+button.mod:active {
+  border-color: #a22a2a;
+  color: #a22a2a;
+  fill: #a22a2a;
+  background-color: #eee;
+}
+button.del:hover {
+  border-color: #a22a2a;
+  color: #a22a2a;
+  fill: #a22a2a;
+  background-color: #eee;
+}
+
+button.del:active {
+  border-color: #5250da;
+  color: #5250da;
+  fill: #5250da;
+}
+
+a.del {
+  color: #eee;
+
+}
+
+a.del:hover {
+  color: #a22a2a;
+
+}
+
+.login,
+.logedin {
+  margin-top: 20px;
+  margin-left: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logedin {
+  margin-left: 57%;
+}
+
+.login__input {
+  border: none;
+  border-bottom: 2px solid #d1d1d4;
+  background: none;
+  padding: 10px;
+  padding-left: 24px;
+  font-weight: 700;
+  /* width: 75%; */
+  transition: 0.2s;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+  outline: none;
+  border-bottom-color: #5250da;
+}
+
+.login__label {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+title {
+  font-weight: bolder;
+  border-bottom: 2px solid #5250da;
+  margin: 0px 20%;
+}
